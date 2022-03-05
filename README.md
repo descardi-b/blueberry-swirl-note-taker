@@ -19,4 +19,4 @@ This app was created for the UC Berkeley Full Stack Development course. It utili
 
 ## Images
 <img alt="a screenshot of the blueberry swirl app landing page" src="./images/note-taker-app-1.png">
-<img alt="a screenshot of the blueberry swirl app main page" src="./images/note/taker-app-2.png">
+<img alt="a screenshot of the blueberry swirl app main page" src="./images/note-taker-app-2.png">
