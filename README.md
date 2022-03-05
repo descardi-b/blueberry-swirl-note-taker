@@ -1,5 +1,5 @@
 # blueberry-swirl-note-taker
-A scrumtious note taking app for professional ladies
+A scrumtious little note taking app for professional ladies
 
 ## Welcome to the Blueberry Swirl Note Taker
 Here's a handy application for any hacker babes looking to:
