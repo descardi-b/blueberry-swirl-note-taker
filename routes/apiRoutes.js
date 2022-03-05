@@ -2,20 +2,20 @@ const router = require('express').Router();
 
 const store = require('../db/store');
 
-// setup GET route for existing notes
+// requesting the existing notes
 
 router.get('/notes', (req, res) => {
-    store  
+    store
         .getNotes()
         .then(notes => {
-            res.json(notes);
+            res.json(notes)
         })
         .catch(err => {
-            res.status(500).json(err);
+            res.status(500).json(err)
         })
-});
+})
 
-// setup POST route for user creating new notes
+// posting note function route 
 
 router.post('/notes', (req, res) => {
     console.log(req.body)
@@ -25,15 +25,16 @@ router.post('/notes', (req, res) => {
             res.json(note)
         })
         .catch(err => {
-            res.status(500).json(err);
+            res.status(500).json(err)
         })
-});
+})
 
-// setup function for deleting notes
+
+// delete note function route
 
 router.delete('/notes/:id', (req, res) => {
-    store 
-        .remoteNote(req.params.id)
+    store
+        .removeNote(req.params.id)
         .then(() => res.json({ ok: true }))
         .catch(err => res.status(500).json(err))
 })
