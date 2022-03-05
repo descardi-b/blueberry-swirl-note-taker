@@ -76,3 +76,24 @@ body {
   padding: 20px;
   cursor: pointer;
 }
+
+.blueberry {
+  background-color: rgb(89, 89, 254);
+}
+
+.blueberry-lite {
+  color: rgb(141, 141, 255);
+}
+
+.blueberry-cream {
+  color:rgb(184, 184, 255);
+}
+
+#startBtn {
+  -webkit-transition: color 3s; 
+  transition: color 3s; 
+}
+
+#startBtn:hover {
+  color: white
+}
